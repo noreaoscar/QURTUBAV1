@@ -1697,13 +1697,20 @@ Added, IMPORTANT CHANGE TEXT COLOR
 }
 
 .header.sticky .button .btn {
-  background-color: #7E57FF;
-  color: #fff;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  
+}
+.header.sticky .button .btn:hover {
+  background-color: #00ADEC;
+  color: rgb(0, 0, 0);
+  box-shadow: 2px 2px 2px #00000071;
 }
 
 .header.sticky .button .btn:hover {
-  background-color: #081828;
-  color: #fff;
+  background-color: #00ADEC;
+  color: rgb(0, 0, 0);
+ 
 }
 
 .sticky {
@@ -2026,12 +2033,12 @@ Added, IMPORTANT CHANGE TEXT COLOR
 }
 
 .sticky .button .btn {
-  background-color: #7E57FF;
+  background-color: #000000;
   color: #fff;
 }
 
 .sticky .button .btn:hover {
-  background-color: #7E57FF;
+  background-color: #000000;
   color: #fff;
 }
 
@@ -2060,7 +2067,7 @@ Added, IMPORTANT CHANGE TEXT COLOR
 ========================================*/
 .hero-area {
   position: relative;
-  background-image: url("/assets/images/hero/hero2.0\ armado.png");
+  background-image: url("/Qurtuba/assets/images/hero/hero2.0\ armado.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
