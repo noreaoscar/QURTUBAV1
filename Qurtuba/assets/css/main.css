@@ -1109,6 +1109,7 @@ ol {
 .section-title p {
   font-size: 16px;
   line-height: 28px;
+  color: rgb(0, 0, 0);
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3771,6 +3772,7 @@ blockquote span {
 ========================================*/
 .team .section-title {
   margin-bottom: 50px;
+  
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
@@ -3779,6 +3781,42 @@ blockquote span {
   }
 }
 
+.hero-area-services {
+  max-height: 621px;
+  position: relative;
+  background-image: url("");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  z-index: 0;
+ 
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .hero-area {
+    background-image: none;
+    background-color: #00ADEC;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-area-services {
+    background-image: none;
+    background-color: #ffffff;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .hero-area-services {
+    padding: 150px 0 100px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-area-services {
+    padding: 110px 0 80px 0;
+  }
+}
 .team .single-team {
   margin-top: 30px;
   border-radius: 8px;
@@ -3791,12 +3829,14 @@ blockquote span {
 .team .single-team img {
   height: 200px;
   width: 200px;
-  border-radius: 50%;
+ 
   display: inline-block;
   background-color: #fff;
   padding: 10px;
-  border: 1px solid #eee;
+  
 }
+
+
 
 .team .single-team .content {
   padding: 40px 30px;
@@ -4594,7 +4634,9 @@ blockquote span {
 ========================================*/
 .faq {
   padding-bottom: 80px;
-  background-color: #F4F7FA;
+  background-color:#00ADEC;
+ 
+ 
 }
 
 @media (max-width: 767px) {
@@ -4704,7 +4746,7 @@ blockquote span {
 
 .accordion-button:not(.collapsed) {
   color: #fff;
-  background-color: #00ADEC;
+  background-color: #000000;
   border-radius: 4px 4px 0 0;
 }
 
@@ -4742,7 +4784,7 @@ blockquote span {
 .accordion-body p {
   margin: 0;
   margin-bottom: 20px;
-  color: #777;
+  color: rgb(0, 0, 0);
 }
 
 .accordion-body p:last-child {
