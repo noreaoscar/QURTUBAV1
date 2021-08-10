@@ -2118,7 +2118,7 @@ Added, IMPORTANT CHANGE TEXT COLOR
 }
 
 .hero-area .hero-content h4 {
-  color:#00ADEC;
+  color:#ffffff;
   font-weight: 600;
   font-size: 15px;
   margin-bottom: 20px;
@@ -2133,7 +2133,7 @@ Added, IMPORTANT CHANGE TEXT COLOR
   font-weight: 700;
   font-size: 38px;
   line-height: 55px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-transform: capitalize;
 }
 
@@ -2142,7 +2142,7 @@ Added, IMPORTANT CHANGE TEXT COLOR
   font-size: 16px;
   line-height: 28px;
   margin-top: 20px;
-  color: #000000;
+  color: #ffffff;
 }
 
 .hero-area .hero-content .button {
@@ -5085,6 +5085,7 @@ blockquote span {
   font-size: 16px;
 }
 
+
 /*======================================
 	Footer CSS
 ========================================*/
@@ -5115,3 +5116,8 @@ footer {
 
 
 
+
+.display_logo {
+  display: flex;
+  
+}
